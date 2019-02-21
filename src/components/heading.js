@@ -1,6 +1,7 @@
 // import React from 'react';
 import styled from 'styled-components';
 
+// Heading styling
 const Heading = styled.div`
 // text-align: center;
 padding-top: 4.725rem;

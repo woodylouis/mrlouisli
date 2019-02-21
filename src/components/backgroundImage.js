@@ -20,19 +20,6 @@ const MyHeaderImage = styled.img`
     background-repeat: no-repeat;
     
 `
-// const SayHi = styled.p`
-//     position: absolute;
-//     font-size: 1.75rem;
-//     line-height: 1.75rem;
-//     color: #fff;
-//     font-weight: 400;
-//     font-style: italic;
-//     left: 50%;
-//     top: 40%;
-//     -webkit-transform: translateX(-40%);
-//     transform: translateX(-40%);
-// `
-
 const Name = styled.p`
     position: absolute;
     font-size: 3.25rem;
