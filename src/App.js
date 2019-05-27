@@ -1,18 +1,21 @@
 // React includes
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-// Local includes
+// includes App
+//import Todo from './components/Todo';
 import Home from './containers/Home';
-// import Background from '../src/components/Background/background';
-// import Header from '../components/Header/header';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Home />
-      </div>
+     <BrowserRouter>
+       <Switch>
+          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/todo" component={Todo} /> */}
+       </Switch>
+     </BrowserRouter>
     );
   }
 }
