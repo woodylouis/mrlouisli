@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/Australia_6.166a1d9f.jpg"
   },
   {
-    "revision": "fa522c0b3c032a5cf5db",
-    "url": "/static/css/main.2533553d.chunk.css"
+    "revision": "58ea1512a175559ffc37",
+    "url": "/static/css/main.c5617c6b.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "1b9a4249ccfdbe7f88a4",
-    "url": "/static/js/2.1b9a4249.chunk.js"
+    "revision": "6570f9b88758e0c34d6c",
+    "url": "/static/js/2.6570f9b8.chunk.js"
   },
   {
     "revision": "6b905a2a43bc8cf7016e542403e20680",
@@ -30,14 +30,6 @@ self.__precacheManifest = [
   {
     "revision": "7b18989815ea2b0fb3b207c4f2742e7a",
     "url": "/static/media/background_desktop.7b189898.jpg"
-  },
-  {
-    "revision": "f9a723a3ca5e2ec23352e76ddee6c64c",
-    "url": "/static/media/facebook_logo.f9a723a3.svg"
-  },
-  {
-    "revision": "0d05e7def87658dcd07824b097c866a8",
-    "url": "/static/media/linkedin_logo.0d05e7de.svg"
   },
   {
     "revision": "60efc05551cb81459bd489bb39ae4ff2",
@@ -60,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/Australia_5.50a4328b.jpg"
   },
   {
-    "revision": "fa522c0b3c032a5cf5db",
-    "url": "/static/js/main.fa522c0b.chunk.js"
+    "revision": "58ea1512a175559ffc37",
+    "url": "/static/js/main.58ea1512.chunk.js"
   },
   {
     "revision": "6ee8687ec08d9357ba2d69e3c6fa4200",
@@ -112,15 +104,7 @@ self.__precacheManifest = [
     "url": "/static/media/america_3.828e8965.jpg"
   },
   {
-    "revision": "41e740b264fb83c5e167667453d310ad",
-    "url": "/static/media/maldives_1.41e740b2.jpg"
-  },
-  {
-    "revision": "81365788a9ab7885d2fcf32f4d3222ec",
-    "url": "/static/media/maldives_2.81365788.jpg"
-  },
-  {
-    "revision": "1236c52cf731b4a07113902f18e10ec6",
+    "revision": "7f26ba27252d1801ac435a931bcfafd8",
     "url": "/index.html"
   }
 ];
