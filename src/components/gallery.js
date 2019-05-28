@@ -115,7 +115,7 @@ export class Gallery extends React.Component {
                 <Tabs value={value} indicatorColor='none' onChange={this.handleChange} centered>
                     <Tab icon={<LooksAustralia />} label="Australia"/>
                     <Tab icon={<LooksChina />} label="China"/>
-                    <Tab icon={<LooksUSA />} label="USA"/>
+                    {/* <Tab icon={<LooksUSA />} label="USA"/> */}
                 </Tabs>
 
                 { value === 0 && (
@@ -145,7 +145,7 @@ export class Gallery extends React.Component {
                     </div>
                 )}
 
-                { value === 2 && (
+                {/* { value === 2 && (
                     <div>
                         <GalleryContainer photos={usaPhotos} onClick={this.openLightbox} />  
                         <Lightbox images={usaPhotos}
@@ -156,7 +156,7 @@ export class Gallery extends React.Component {
                         isOpen={this.state.lightboxIsOpen}
                         /> 
                     </div>
-                )}
+                )} */}
             </div>
         );
     }
