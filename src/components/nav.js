@@ -10,6 +10,9 @@ import MenuList from '@material-ui/core/MenuList';
 import { withStyles } from '@material-ui/core/styles';
 //import green from '@material-ui/core/colors/green';
 import themeColor from '../utility/theme';
+import linkedinLogo from '../images/linkedin.png';
+import githubLogo from '../images/github-logo.png';
+import homeLogo from '../images/home.png';
 
 const styles = theme => ({
   root: {
@@ -19,6 +22,15 @@ const styles = theme => ({
     marginRight: theme.spacing.unit * 2,
   },
 });
+
+// const smooth = () => ({
+//     $('a').click(function(){
+//       $('html, body').animate({
+//           scrollTop: $( $(this).attr('href') ).offset().top
+//       }, 500);
+//       return false;
+//   })
+// })
 
 class MenuListComposition extends React.Component {
   state = {
@@ -63,10 +75,11 @@ class MenuListComposition extends React.Component {
               >
                 <Paper>
                   <ClickAwayListener onClickAway={this.handleClose}>
-                    <MenuList>
-                      <MenuItem onClick={this.handleClose}>Ravenous</MenuItem>
-                      <MenuItem onClick={this.handleClose}>Rebrandly</MenuItem>
-                      <MenuItem onClick={this.handleClose}>Blog</MenuItem>
+                    <MenuList autoFocus="true">
+                      <MenuItem onClick={this.handleClose}><a href="https://github.com/woodylouis" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="Louis Github" width="40px" height="40px"/></a></MenuItem>
+                      <MenuItem onClick={this.handleClose}><a href="https://github.com/woodylouis" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="Louis Linkedin" width="40px" height="40px"/></a></MenuItem>
+                      {/* <MenuItem onClick={this.handleClose}><a href="#background">background</a></MenuItem> */}
+
                     </MenuList>
                   </ClickAwayListener>
                 </Paper>

@@ -101,7 +101,7 @@ function Background(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root}>
+    <div id="background" className={classes.root}>
       <Heading>
         <Typography variant="h4" align="center">
           - Here's what I've done so far -
