@@ -77,7 +77,7 @@ class MenuListComposition extends React.Component {
                   <ClickAwayListener onClickAway={this.handleClose}>
                     <MenuList autoFocus="true">
                       <MenuItem onClick={this.handleClose}><a href="https://github.com/woodylouis" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="Louis Github" width="40px" height="40px"/></a></MenuItem>
-                      <MenuItem onClick={this.handleClose}><a href="https://github.com/woodylouis" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="Louis Linkedin" width="40px" height="40px"/></a></MenuItem>
+                      <MenuItem onClick={this.handleClose}><a href="https://www.linkedin.com/in/mrlouisli" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="Louis Linkedin" width="40px" height="40px"/></a></MenuItem>
                       {/* <MenuItem onClick={this.handleClose}><a href="#background">background</a></MenuItem> */}
 
                     </MenuList>
