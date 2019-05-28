@@ -6,3 +6,10 @@ My porfolio project was bootstrapped with [Create React App](https://github.com/
     - integrate with serveral SPA apps: weather API, Yelp API and more
 
 2. UI Redesign
+
+## Release process
+### `$ git checkout -b gh-pages`
+### `$ npm run deploy`
+### `$ git add .`
+### `$ git commit -m "Something"`
+### `$ git push origin master`
