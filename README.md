@@ -8,7 +8,6 @@ My porfolio project was bootstrapped with [Create React App](https://github.com/
 2. UI Redesign
 
 ## Release process
-### `$ git checkout -b gh-pages`
 ### `$ npm run deploy`
 ### `$ git add .`
 ### `$ git commit -m "Something"`
